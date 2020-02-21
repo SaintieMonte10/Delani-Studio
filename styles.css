@@ -6,5 +6,11 @@ body{
     background-image: url(backgrounds/h_img.jpg);
     color: white;
     padding: 10%;
-    padding-top: 10%;
+
+}
+
+#service{
+    background-image: url(backgrounds/s_image.jpg);
+    color: white;
+    padding: 10%;
 }
