@@ -1,17 +1,29 @@
 body{
     text-align: center;
+    font-size: x-large;
 }
 
 #head{
     background-image: url(backgrounds/h_img.jpg);
     color: white;
     padding: 10%;
-
+    background-size: cover;
 }
 
 #service{
     background-image: url(backgrounds/s_image.jpg);
     color: white;
-    padding: 10%;
+    padding: 8%;
+    background-size: cover;
 }
 
+#contact{
+    background-image: url(backgrounds/c_image.jpg);
+    color: white;
+    padding: 20%;
+    background-size: cover;
+}
+
+.secondrow{
+    margin-top: 20px;
+}
