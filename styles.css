@@ -1,6 +1,6 @@
 body{
     text-align: center;
-    font-size: x-large;
+    font-size: large;
 }
 
 #head{
@@ -25,5 +25,5 @@ body{
 }
 
 .secondrow{
-    margin-top: 20px;
+    margin-top: 25px;
 }
