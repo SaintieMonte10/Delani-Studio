@@ -22,8 +22,42 @@ body{
     color: white;
     padding: 20%;
     background-size: cover;
+    margin: 20px;
+}
+
+#name{
+    background: transparent;
+    text-align: center;
+    color: white;
+}
+
+.form-inline{
+    text-align: center;
+}
+
+#email{
+    background: transparent;
+    color: white;
+    /* margin:30px; */
+}
+
+#message{
+    background: transparent;
+    color: white;
+    height: 50%;
+    margin-top: 15px;
 }
 
 .secondrow{
-    margin-top: 25px;
+    margin-top: 35px;
 }
+
+#portfolio{
+    margin-left: 80px;
+    margin-right: 80px;
+    justify-content: space-around;
+}
+
+textarea:focus{
+    color: white;
+  }
