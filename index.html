@@ -88,57 +88,67 @@
         <br>
         <br>
 
-        <div id="portfolio">
+        <div id="portfolio" class="container-fluid">
             <h3>PORTFOLIO</h3>
          <br>
+         <div class="col-md-12 mx-auto">
             <div class="row">
-                <div class="card-deck justify-content-center">
-                  <div class="card col-md-3 mb-4 border-0">
-                              <img src="portfolio/work1.jpg">
+                <div class="col-md-2"></div>
+                  <div class="col-md-2">
+                              <img src="portfolio/work4.jpg" class="img img-fluid" alt="work-1">
                    </div>
-                  <div class="card col-md-3 mb-4 border-0">
-                               <img src="portfolio/work2.jpg">
+                  <div class="col-md-2">
+                               <img src="portfolio/work3.jpg" class="img img-fluid" alt="work-2">
                   </div>    
-                  <div class="card col-md-3 mb-4 border-0"> 
-                              <img src= "portfolio/work3.jpg">
+                  <div class="col-md-2"> 
+                              <img src= "portfolio/work2.jpg" class="img img-fluid" alt="work-3">
                   </div>
-                  <div class="card col-md-3 mb-4 border-0">
-                              <img src="portfolio/work4.jpg">
+                  <div class="col-md-2">
+                              <img src="portfolio/work1.jpg" class="img img-fluid" alt="work-4">
                   </div>
-                </div>
-                
-                <div class="card col-md-3 mb-4 border-0">
-                    <img src="portfolio/work5.jpg">
+
+                  <div class="col-md-2"></div>
+                  <div class="col-md-2"></div>
+                  <div class="col-md-2">
+                             <img src="portfolio/work5.jpg" class="img img-fluid" alt="work-5">
+                  </div>
+
+                <div class="col-md-2">
+                              <img src="portfolio/work6.jpg" class="img img-fluid" alt="work-6">
                 </div>
 
-                <div class="card col-md-3 mb-4 border-0">
-                    <img src="portfolio/work6.jpg">
+                <div class="col-md-2">
+                              <img src="portfolio/work7.jpg" class="img img-fluid" alt="work-7">
                 </div>
 
-                <div class="card col-md-3 mb-4 border-0">
-                    <img src="portfolio/work7.jpg">
-                </div>
-
-                <div class="card col-md-3 mb-4 border-0">
-                    <img src="portfolio/work8.jpg">
+                <div class="col-md-2">
+                               <img src="portfolio/work8.jpg" class="img img-fluid" alt="work-8">
                 </div>
             </div>
+         </div>
         <br>
 
         <div id="contact">
             <h3>CONTACT US</h3>
-             <form>
-                 <div class="row" id="inline">
-                
-                      <input type="name" class="col-md-6 form-control form-control" id="name" placeholder="Name..." requred>
-                      <input type="email" class="col-md-6 form-control form-control" id="email" placeholder="Email..." required>
-                  
-
-                  <div class="form-group">
-                  <textarea class=" col-md-12 form-control form-control-lg"  id="message" placeholder="Your message here..."></textarea>
-                  </div>
-                 </div>
-                 <button type="button" class="btn btn-primary btn-block">Submit</button>
+                <form>
+                    <div class="form-group row justify-content-center text-white">
+                        <div class="md-form md-outline col-md-4">
+                             <input id="name" placeholder="Name..." class="form-control input-field text-white" type="text">
+                        </div>
+                        <div class="md-form md-outline col-md-4">
+                             <input id="email" placeholder="Email..." class="form-control text-white" type="email">
+                        </div>
+                    </div>
+                    <div class="form-group row justify-content-center text-white">
+                         <div class="md-form md-outline col-md-8">
+                             <textarea id="message" placeholder="Your message here" class="form-control rounded-0 text-white" rows="8"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-group row justify-content-center text-white">
+                         <div class="md-form md-outline col-md-4">
+                             <button id="submit" class="form-control rounded-0 btn btn-info btn-block" type="submit">Send</button>
+                         </div>
+                    </div>
                 </form>
         </div>
         <br>

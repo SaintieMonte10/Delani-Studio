@@ -23,7 +23,7 @@ body{
     padding: 20%;
     background-size: cover;
     margin: 20px;
-    padding-top: 50px;
+    padding-top: 40px;
 }
 
 #name{
@@ -47,12 +47,6 @@ body{
     color: white;
     height: 50%;
     margin-top: 15px;
-}
-
-#portfolio{
-    margin-left: 80px;
-    margin-right: 80px;
-    justify-content: space-around;
 }
 
 textarea:focus{
