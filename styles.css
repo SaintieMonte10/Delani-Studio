@@ -23,6 +23,7 @@ body{
     padding: 20%;
     background-size: cover;
     margin: 20px;
+    padding-top: 50px;
 }
 
 #name{
@@ -38,7 +39,7 @@ body{
 #email{
     background: transparent;
     color: white;
-    /* margin:30px; */
+    
 }
 
 #message{
@@ -46,10 +47,6 @@ body{
     color: white;
     height: 50%;
     margin-top: 15px;
-}
-
-.secondrow{
-    margin-top: 35px;
 }
 
 #portfolio{
@@ -60,4 +57,18 @@ body{
 
 textarea:focus{
     color: white;
-  }
+}
+
+.p-1{
+    display: none;
+}
+
+.p-2{
+    display: none;
+}
+
+.p-3{
+    display: none;
+}
+
+
