@@ -47,13 +47,13 @@
             <br>
 
             <div class="row">
-                <div class="col-md-4">
-                    <img src="services_icons/design_icon.png" class="design">
+                <div class="col-md-4" id="sign">
+                    <img src="services_icons/design_icon.png" id="design">
                     <br>
                     <br>
                     <h4>Design</h4>
                     <br>
-                    <p class="p-1"> Our design practice offers a full range of services<br> including brand strategy,
+                    <p id="p-1"> Our design practice offers a full range of services<br> including brand strategy,
                         interaction and
                         visual design<br> and user experience testing.<br><br>
                         Throughout your project, our designers create and<br> implement visual design and workflows,
@@ -61,26 +61,26 @@
                         user <br>feedback and work with you to make sure what gets built<br> is what is needed.
                     </p>
                 </div>
-                <div class="col-md-4">
-                    <img src="services_icons/dev_icon.png" class="development">
+                <div class="col-md-4" id="dev">
+                    <img src="services_icons/dev_icon.png" id="development">
                     <br>
                     <br>
                     <h4>Development</h4>
                     <br>
-                    <p class="p-2">
+                    <p id="p-2">
                         All engineers are fluent in the latest enterprise, mobile<br> and web development
                         technologies.<br><br>
                         They collaborate with your team to write, and improve code<br> on a daily basis, using proven
                         practices such as<br> test-driven development and pair programming.
                     </p>
                 </div>
-                <div class="col-md-4">
-                    <img src="services_icons/product_icon.png" class="product">
+                <div class="col-md-4" id="manage">
+                    <img src="services_icons/product_icon.png" id="product">
                     <br>
                     <br>
                     <h4>Product Management</h4>
                     <br>
-                    <p class="p-3">
+                    <p id="p-3">
                         Planning and development is iterative. Because we are<br> constantly coding and testing, the
                         products we build are<br> always ready to go live.<br><br>
                         This iterative process allows for changes as business<br> requirements evolve.
@@ -98,34 +98,74 @@
                 <div class="row">
                     <div class="col-md-2"></div>
                     <div class="col-md-2">
-                        <img src="portfolio/work4.jpg" class="img img-fluid" alt="work-1">
+                        <div id="dark" class="view text-white">
+                                 <img src="portfolio/work4.jpg" class="img img-fluid" alt="work-1">
+                           <div id="dark-text" class="mask rgba-black-strong">
+                                 <p id="dark-image">DARK</p>
+                           </div>
+                        </div>
                     </div>
                     <div class="col-md-2">
-                        <img src="portfolio/work3.jpg" class="img img-fluid" alt="work-2">
+                        <div id="ontario" class="view text-white">
+                                 <img src="portfolio/work3.jpg" class="img img-fluid" alt="work-2">
+                            <div id="ontario-text" class="mask rgba-black-strong">
+                                 <p id="ontario-image">ONTARIO</p>
+                            </div>
+                        </div>
                     </div>
                     <div class="col-md-2">
-                        <img src="portfolio/work2.jpg" class="img img-fluid" alt="work-3">
+                        <div id="crystals" class="view text-white">
+                                 <img src="portfolio/work2.jpg" class="img img-fluid" alt="work-3">
+                            <div id="crystals-text" class="mask rgba-black-strong">
+                                 <p id="crystals-image">CRYSTALS</p>
+                            </div>
+                        </div>
                     </div>
                     <div class="col-md-2">
-                        <img src="portfolio/work1.jpg" class="img img-fluid" alt="work-4">
+                        <div id="jim" class="view text-white">
+                                <img src="portfolio/work1.jpg" class="img img-fluid" alt="work-4">
+                            <div id="jim-text" class="mask rgba-black-strong">
+                                 <p id="jim-image">JIM CARREY</p>
+                            </div>
+                        </div>
                     </div>
 
                     <div class="col-md-2"></div>
                     <div class="col-md-2"></div>
                     <div class="col-md-2">
-                        <img src="portfolio/work5.jpg" class="img img-fluid" alt="work-5">
+                        <div id="elexa" class="view text-white">
+                                 <img src="portfolio/work5.jpg" class="img img-fluid" alt="work-5">
+                            <div id="elexa-text" class="mask rgba-black-strong">
+                                 <p id="elexa-image">ELEXA</p>
+                            </div>
+                        </div>
                     </div>
 
                     <div class="col-md-2">
-                        <img src="portfolio/work6.jpg" class="img img-fluid" alt="work-6">
+                        <div id="age" class="view text-white">
+                                 <img src="portfolio/work6.jpg" class="img img-fluid" alt="work-6">
+                            <div id="age-text" class="mask rgba-black-strong">
+                                 <p id="age-image">AGE MANIPULATOR</p>
+                             </div>
+                        </div>
                     </div>
 
                     <div class="col-md-2">
-                        <img src="portfolio/work7.jpg" class="img img-fluid" alt="work-7">
+                        <div id="burned" class="view text-white">
+                                 <img src="portfolio/work7.jpg" class="img img-fluid" alt="work-7">
+                            <div id="burned-text" class="mask rgba-black-strong">
+                                 <p id="burned-image">BURNED MOCK-UP</p>
+                            </div>
+                        </div>
                     </div>
 
                     <div class="col-md-2">
-                        <img src="portfolio/work8.jpg" class="img img-fluid" alt="work-8">
+                        <div class="view text-white">
+                                 <img src="portfolio/work8.jpg" class="img img-fluid" alt="work-8">
+                            <div id="bailey-text" class="mask rgba-black-strong">
+                                 <p id="bailey-image">BAILEY WONGER</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -133,7 +173,7 @@
 
             <div id="contact" class="container-fluid">
                 <h3>CONTACT US</h3>
-                <form>
+                <form onsubmit="return validationForm()" class="form">
                     <div class="form-group row justify-content-center text-white">
                         <div class="md-form md-outline col-md-5">
                             <input id="name" placeholder="Name..." class="form-control input-field text-white"
@@ -152,7 +192,7 @@
                     <div class="form-group row justify-content-center text-white">
                         <div class="md-form md-outline col-md-2">
                             <button id="submit" class="form-control rounded-0 btn btn-info btn-block"
-                                type="submit">Send</button>
+                                type="submit">Submit</button>
                         </div>
                     </div>
                 </form>
@@ -175,7 +215,11 @@
             <br>
             <p>DELANI STUDIO<br>2020</p>
         </div>
-        <script src="js/jquery-3.4.1.js"></script>
+        <!-- <script src="jquery-3.4.1.js"></script> -->
+        <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
         <scrpt src="script.js"></scrpt>
 </body>
 

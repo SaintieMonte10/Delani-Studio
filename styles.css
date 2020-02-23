@@ -32,10 +32,6 @@ body{
     color: white;
 }
 
-.form-inline{
-    text-align: center;
-}
-
 #email{
     background: transparent;
     color: white;
@@ -53,16 +49,132 @@ textarea:focus{
     color: white;
 }
 
-.p-1{
+#p-1{
     display: none;
 }
 
-.p-2{
+#p-2{
     display: none;
 }
 
-.p-3{
+#p-3{
     display: none;
 }
 
+#burned-image {
+    border-style: solid;
+    border-color: white;
+    padding-bottom: 60px;
+    margin: 15px;
+    vertical-align: text-top;
+    font-weight: bold;
+    text-align: left;
+    font-size: 24px;
+    padding-left: 10px;
+}
+#burned-text {
+    display: none;
+}
 
+#age-image {
+    border-style: solid;
+    border-color: white;
+    padding-bottom: 60px;
+    margin: 15px;
+    vertical-align: text-top;
+    font-weight: bold;
+    text-align: left;
+    font-size: 22px;
+    padding-left: 10px;
+}
+
+#age-text {
+    display: none;
+}
+
+#elexa-image {
+    border-style: solid;
+    border-color: white;
+    padding-bottom: 80px;
+    margin: 15px;
+    vertical-align: text-top;
+    font-weight: bold;
+    text-align: left;
+    font-size: 22px;
+    padding-left: 10px;
+}
+#elexa-text {
+    display: none;
+}
+
+#bailey-image {
+    border-style: solid;
+    border-color: white;
+    padding-bottom: 60px;
+    margin: 15px;
+    vertical-align: text-top;
+    font-weight: bold;
+    text-align: left;
+    font-size: 24px;
+    padding-left: 10px;
+}
+#bailey-text {
+    display: none;
+}
+
+#jim-image {
+    border-style: solid;
+    border-color: white;
+    padding-bottom: 60px;
+    margin: 15px;
+    vertical-align: text-top;
+    font-weight: bold;
+    text-align: left;
+    font-size: 24px;
+    padding-left: 10px;
+}
+#jim-text {
+    display: none;
+}
+
+#crystals-image {
+    border-style: solid;
+    border-color: white;
+    padding-bottom: 80px;
+    margin: 15px;
+    vertical-align: text-top;
+    font-weight: bold;
+    text-align: left;
+    font-size: 22px;
+    padding-left: 10px;
+}
+#crystals-text {
+    display: none;
+}
+
+#ontario-image {
+    border-style: solid;
+    border-color: white;
+    padding-bottom: 80px;
+    margin: 15px;
+    vertical-align: text-top;
+    font-weight: bold;
+    text-align: left;
+    font-size: 22px;
+    padding-left: 10px;
+}
+#ontario-text {
+    display: none;
+}
+
+#dark-image{
+    border-style: solid;
+    border-color: white;
+    vertical-align: text-top;
+    font-weight: bold;
+    text-align: left;
+    font-size: 22px;
+}
+/* #dark-text {
+    display: none;
+} */
