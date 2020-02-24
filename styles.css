@@ -49,15 +49,7 @@ textarea:focus{
     color: white;
 }
 
-#p-1{
-    display: none;
-}
-
-#p-2{
-    display: none;
-}
-
-#p-3{
+#sign2,#para2, #para3{
     display: none;
 }
 
@@ -175,6 +167,3 @@ textarea:focus{
     text-align: left;
     font-size: 22px;
 }
-/* #dark-text {
-    display: none;
-} */
