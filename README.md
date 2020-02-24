@@ -27,6 +27,7 @@ In the form the user is required to enter name ,Email and the message as an in i
 * jQuery
 
 ## Live link
+- https://saintiemonte10.github.io/Delani-Studio/
 
 
 ##  Contact information
