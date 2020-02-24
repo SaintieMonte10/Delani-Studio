@@ -14,57 +14,27 @@ $(document).ready(function(){
 });
 
 $(document).ready(function() {
-    $("#whites").hover(
+    $("#col2").hover(
       function() {
         $(this)
-          .find("#dark-image")
+          .find(".mytextimage")
           .show();
       },
       function() {
         $(this)
-          .find("#dark-image")
+          .find(".mytextimage")
           .hide();
       }
-    );
+	);
+	
   });
 
-// 	$("#jim").hover(function(){
-// 		$("#jim-text").toggle();
-// 	})
-// 	$("#bailey").hover(function() {
-// 		$("#bailey-text").toggle();
-// 	});
-// 	$("burned").hover(function(){
-// 		$("#burned-text").toggle();
-// 	});
-// 	$("#age").hover(function(){
-// 		$("#age-text").toggle();
-// 	});
-// 	$("elexa").hover(function(){
-// 		$("elexa-text").toggle();
-// 	});
-// 	$("crystals").hover(function(){
-// 		$("#crystals-text").toggle();
-// 	});
-// 	$("#ontario").hover(function(){
-// 		$("#ontario-text").toggle();
-// 	});
-// 	$("#dark").hover(function(){
-// 		$("#dark-text").toggle();
-//     });
 
-//        $('#submit').click(function(event) {
-//         event.preventDefault();
-//         var name = $('#name').val();
-//         var email = $('#email').val();
-//         var message = $('#message');
-//         var key = '43ab10333d46e19325f96d210ed40c49-us5';
-//         if (name == '' || email == '' || message == '') {
-//             alert('Please make sure you have filled in the form correctly!');
-//         } else {
-//             alert(' Hi ' + name + ' We have received your message. Thank you for reaching out to us.');
-//         }
 
-//     });
+  $(document).ready(function(){
+	  document.getElementById ("form").addEventListener("submit", popping);
+	  function popping(){
+		  alert ("The message of yours is received successfully")
+	  }
 
-// });
+  });

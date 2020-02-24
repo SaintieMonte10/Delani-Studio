@@ -1,6 +1,6 @@
 # Delani studio
 
-## Arthur
+## Author
 
 * Clare Richards
 

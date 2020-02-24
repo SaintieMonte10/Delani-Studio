@@ -53,117 +53,42 @@ textarea:focus{
     display: none;
 }
 
-#burned-image {
-    border-style: solid;
-    border-color: white;
-    padding-bottom: 60px;
-    margin: 15px;
-    vertical-align: text-top;
+
+.mytextimage{
+    position: absolute;
+    top:50%;
+    left:50%;
+    display:none;
+    /* border-style: solid;
+    border-color:white;
+    color:white;
     font-weight: bold;
-    text-align: left;
-    font-size: 24px;
-    padding-left: 10px;
-}
-#burned-text {
-    display: none;
+    text-align: center;
+    font-size: 40px; */
 }
 
-#age-image {
-    border-style: solid;
-    border-color: white;
-    padding-bottom: 60px;
-    margin: 15px;
-    vertical-align: text-top;
-    font-weight: bold;
-    text-align: left;
-    font-size: 22px;
-    padding-left: 10px;
+.image1:hover{
+    opacity: 0.4;
+}
+#mytextimage:hover{
+    opacity: 0.4;
 }
 
-#age-text {
-    display: none;
+.image1{
+    border: 2px solid white;
 }
+/* #dark-text{
+    position: absolute;
+    top:50%;
+    left:50%;
+    display:none;
+    border:6px white solid;
+} */
 
-#elexa-image {
-    border-style: solid;
-    border-color: white;
-    padding-bottom: 80px;
-    margin: 15px;
-    vertical-align: text-top;
-    font-weight: bold;
-    text-align: left;
-    font-size: 22px;
-    padding-left: 10px;
-}
-#elexa-text {
-    display: none;
-}
-
-#bailey-image {
-    border-style: solid;
-    border-color: white;
-    padding-bottom: 60px;
-    margin: 15px;
-    vertical-align: text-top;
-    font-weight: bold;
-    text-align: left;
-    font-size: 24px;
-    padding-left: 10px;
-}
-#bailey-text {
-    display: none;
-}
-
-#jim-image {
-    border-style: solid;
-    border-color: white;
-    padding-bottom: 60px;
-    margin: 15px;
-    vertical-align: text-top;
-    font-weight: bold;
-    text-align: left;
-    font-size: 24px;
-    padding-left: 10px;
-}
-#jim-text {
-    display: none;
-}
-
-#crystals-image {
-    border-style: solid;
-    border-color: white;
-    padding-bottom: 80px;
-    margin: 15px;
-    vertical-align: text-top;
-    font-weight: bold;
-    text-align: left;
-    font-size: 22px;
-    padding-left: 10px;
-}
-#crystals-text {
-    display: none;
-}
-
-#ontario-image {
-    border-style: solid;
-    border-color: white;
-    padding-bottom: 80px;
-    margin: 15px;
-    vertical-align: text-top;
-    font-weight: bold;
-    text-align: left;
-    font-size: 22px;
-    padding-left: 10px;
-}
-#ontario-text {
-    display: none;
-}
-
-#dark-image{
-    border-style: solid;
-    border-color: white;
-    vertical-align: text-top;
-    font-weight: bold;
-    text-align: left;
-    font-size: 22px;
-}
+/* #ontario-text{
+    position: absolute;
+    top:50%;
+    left:50%;
+    display:none;
+    border:5px white solid;
+} */
