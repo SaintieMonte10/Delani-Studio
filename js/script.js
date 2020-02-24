@@ -11,18 +11,31 @@ $(document).ready(function(){
 		$("#product").toggle();
 		$("#para3").toggle();
 	});
-
-	
 });
 
-// 	$("#jim").hover(function() {
-// 		$("div#jim-text").toggle();
+$(document).ready(function() {
+    $("#whites").hover(
+      function() {
+        $(this)
+          .find("#dark-image")
+          .show();
+      },
+      function() {
+        $(this)
+          .find("#dark-image")
+          .hide();
+      }
+    );
+  });
+
+// 	$("#jim").hover(function(){
+// 		$("#jim-text").toggle();
 // 	})
 // 	$("#bailey").hover(function() {
-// 		$("div#bailey-text").toggle();
+// 		$("#bailey-text").toggle();
 // 	});
 // 	$("burned").hover(function(){
-// 		$("div#burned-text").toggle();
+// 		$("#burned-text").toggle();
 // 	});
 // 	$("#age").hover(function(){
 // 		$("#age-text").toggle();
